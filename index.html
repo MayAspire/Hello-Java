@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="userName()">
+	 
+
+
+	 <button id="mute">Mute</button>
+	    <div class="timer"></div>
+	<div id="allBackground">
+
+	<video width="100%" id="video" src="https://static.videezy.com/system/resources/previews/000/004/952/original/Summer_Flower_4K_Living_Background.mp4" autoplay loop muted>
+     
+	</video>
+
+     <audio id="audio" src="Audio/muzyka-iz-igr-kredo-ubiycy-2.mp3" autoplay loop="loop"></audio>
+
+
+    <div class="container">
+	   <h2 id="question"></h2>
+
+	   <button class="btn" data-yes="yes"><b>Правда</b></button>
+	   <button class="btn" data-not="no"><b>Ложь</b>
+	   </button>
+
+    </div>
+        
+    <div class="left">    
+       <p id="userCount">0</p>
+       <p id="userName">User</p>
+    </div>
+
+    <div class="right">
+        <p id="compCount">0</p>
+        <p>Comp</p>
+    </div>   
+
+    <div class="imagesContainer">
+    	<img id="img" src="Pictures/1.jpg">
+    </div>  
+         <div class="startRestart">
+         	<button class="start"><b>Start</b>
+         	</button>
+         	<button class="restart"><b>Restart</b>
+         	</button>
+         </div>
+      
+         </div>
+<script src="javaScript.js"></script>
+</body>
+</html>
